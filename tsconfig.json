@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false,
     "target": "ESNext",
     "module": "ESNext",
     "strict": true,
     "jsx": "preserve",
+    "strictNullChecks": false,
     "importHelpers": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -12,7 +14,7 @@
     "baseUrl": ".",
     "types": ["webpack-env"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
     },
     "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"]
   },

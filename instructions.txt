@@ -1,0 +1,27 @@
+Boilerplate: https://github.com/Jamie-Yang/vue3-boilerplate
+
+Installed:
+
+1. To install webpack packages:
+    npm install
+2. Run Dev Server
+    # Start development server.
+    cd ~/cubes/visualstudio/vueproject
+    yarn serve
+
+    # Compile production bundle.
+    yarn build
+
+
+Tutorial: https://www.youtube.com/watch?v=QAO7YxF7hSk 27:17
+Contract Dapp Instructions: 
+1. Install solc: npm install -g solc
+    a. Bin command: solcjs FileName.sol --bin
+    b. Abi command: solcjs FileName.sol --abi
+
+2. Install ganache-cli: npm install -g ganache-cli
+    a. Run local enviroment: ganache-cli
+
+3. Install ethers: npm install --save ethers
+
+4. Install truffle: npm install -g truffle
